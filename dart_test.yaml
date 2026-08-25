@@ -1,0 +1,7 @@
+tags:
+  screenshot:
+    # Skipped by default. These render the README images rather than guarding
+    # against regressions, and a golden rendered on one machine will not match
+    # a rerun on another — text rasterisation alone moves ~1% of the pixels,
+    # which is what turned CI red before this file existed.
+    skip: "run with: flutter test --tags screenshot --run-skipped --update-goldens"
