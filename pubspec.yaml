@@ -1,0 +1,27 @@
+name: fieldlog
+description: Offline-first field inspections — record them anywhere, they reach the server when the signal does.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.1.4
+
+  # The queue this app is built around. Pinned to the repository rather than
+  # vendored, so the package stays a package and its tests keep running
+  # against it independently.
+  outbox_queue:
+    git:
+      url: https://github.com/Mustafa0u0/outbox_queue.git
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
