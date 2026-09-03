@@ -11,12 +11,10 @@ dependencies:
     sdk: flutter
   path_provider: ^2.1.4
 
-  # The queue this app is built around. Pinned to the repository rather than
-  # vendored, so the package stays a package and its tests keep running
-  # against it independently.
-  outbox_queue:
-    git:
-      url: https://github.com/Mustafa0u0/outbox_queue.git
+  # The queue this app is built around, from pub.dev rather than vendored in.
+  # It stays a package with its own tests, and this line is the same one
+  # anybody else would write.
+  outbox_queue: ^0.1.1
 
 dev_dependencies:
   flutter_test:
