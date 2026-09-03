@@ -1,5 +1,7 @@
 # FieldLog
 
+[![CI](https://github.com/Mustafa0u0/fieldlog/actions/workflows/ci.yaml/badge.svg)](https://github.com/Mustafa0u0/fieldlog/actions/workflows/ci.yaml)
+
 Offline-first inspections. Record them anywhere; they reach the server when the
 signal does.
 
